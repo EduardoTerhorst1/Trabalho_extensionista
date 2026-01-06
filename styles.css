@@ -1,0 +1,65 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #006633;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+}
+
+.intro p,
+.why ul,
+.where .spot,
+.tips ul {
+    margin-top: 10px;
+}
+
+.why ul,
+.tips ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.where .spot {
+    background-color: #e8f5e9;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 4px solid #006633;
+}
+
+footer {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 0.9rem;
+    color: #555;
+}
